@@ -1,0 +1,71 @@
+/******************************************************************************************/
+/* Body styling to make background white (Bootstrap has a light gray background) */
+body {
+    background-color: #ffffff;
+}
+
+.my-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/******************************************************************************************/
+/* Header */
+/******************************************************************************************/
+/* Header Background */
+.bg-white {
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.my-navbar {
+    height: 100px;
+    padding: 0 5vw;
+}
+
+/* Vertical Align */
+.login-btn, .signup-btn, .home-btn {
+    vertical-align: middle;
+}
+
+/* "RateMyApartment" */
+.home-btn {
+    color :#333333;
+    font-weight: bold;
+}
+
+
+/* "Sign Up" Button */
+.login-btn {
+    font-weight: bold;
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 8px 30px; /* Adjust padding for a better shape */
+    border-radius: 25px; /* This gives the stadium shape */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.login-btn:hover {
+    color: white;
+    background-color: #555;
+}
+
+/* "Log In" Button */
+.signup-btn {
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding-right: 20px;
+    line-height: 36px;
+}
+.signup-btn:hover {
+    color: #333333;
+}

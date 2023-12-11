@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Apartment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Add New Apartment</h2>
+    <form action="/add-apartment" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="name">Apartment Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="average_rating">Average Rating:</label>
+            <input type="text" class="form-control" id="average_rating" name="average_rating" required>
+        </div>
+        <div class="form-group">
+            <label for="image">Apartment Image:</label>
+            <input type="file" class="form-control-file" id="image" name="image" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Apartment</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+/******************************************************************************************/
+/* Body styling to make background white (Bootstrap has a light gray background) */
+body {
+    background-color: #ffffff;
+}
+
+.my-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/******************************************************************************************/
+/* Header */
+/******************************************************************************************/
+/* Header Background */
+.bg-white {
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.my-navbar {
+    height: 100px;
+    padding: 0 5vw; 
+}
+
+/* Vertical Align */
+.login-btn, .signup-btn, .home-btn {
+    vertical-align: middle;
+}
+
+/* "RateMyApartment" */
+.home-btn {
+    color :#333333;
+    font-weight: bold;
+}
+
+
+/* "Sign Up" Button */
+.login-btn {
+    font-weight: bold;
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 8px 30px; /* Adjust padding for a better shape */
+    border-radius: 25px; /* This gives the stadium shape */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.login-btn:hover {
+    color: white;
+    background-color: #555;
+}
+
+/* "Log In" Button */
+.signup-btn {
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding-right: 20px;
+    line-height: 36px;
+}
+.signup-btn:hover {
+    color: #333333;
+}
+
+/******************************************************************************************/
+/* Search Bar */
+/******************************************************************************************/
+/* Entire Section */
+.full-width-image {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Example height, adjust as needed */
+    overflow: hidden; /* Ensures the image doesn't go beyond the container */
+}
+
+/* Blurred Image Background*/
+.blurred-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/boston.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px); /* Adjust the blur value as needed */
+}
+
+.centered-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* or any color you prefer */
+    text-align: center;
+    z-index: 1; /* Ensures the text stays above the blurred background */
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+/* Style for the search bar and dropdown */
+.input-group {
+    border-radius: 25px;
+    overflow: hidden; /* This will ensure dropdown appears above the rounded edges */
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-right: none; /* Removes right border to merge input and button seamlessly */
+    border-radius: 25px 0 0 25px; /* Round the left side of the input */
+}
+
+.input-group-append .btn-outline-secondary.dropdown-toggle {
+    border: 1px solid #ced4da;
+    border-radius: 0 25px 25px 0; /* Round the right side of the button */
+}
+
+/* Dropdown menu styling */
+#dropdownMenu {
+    width: 100%; /* Ensures dropdown takes full width of parent */
+    max-height: 200px;
+    overflow-y: auto; /* Adds a scrollbar if there are many items */
+}
+
+#dropdownMenu a:hover {
+    background-color: #f8f9fa; /* A subtle hover effect */
+}
+
+/******************************************************************************************/
+/* Apartment Cards */
+.border-round {
+    border-radius: 15px; /* Rounded corners */
+    border: 1px solid #d4d4d4;
+    box-shadow: 2px 2px 12px #aaa; /* Simple shadow for depth */
+}
+
+
+

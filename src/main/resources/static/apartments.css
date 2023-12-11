@@ -1,0 +1,113 @@
+/******************************************************************************************/
+/* Body styling to make background white (Bootstrap has a light gray background) */
+body {
+    background-color: #ffffff;
+}
+
+.my-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/******************************************************************************************/
+/* Header */
+/******************************************************************************************/
+/* Header Background */
+.bg-white {
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.my-navbar {
+    height: 100px;
+    padding: 0 5vw;
+}
+
+/* Vertical Align */
+.login-btn, .signup-btn, .home-btn {
+    vertical-align: middle;
+}
+
+/* "RateMyApartment" */
+.home-btn {
+    color :#333333;
+    font-weight: bold;
+}
+
+
+/* "Sign Up" Button */
+.login-btn {
+    font-weight: bold;
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 8px 30px; /* Adjust padding for a better shape */
+    border-radius: 25px; /* This gives the stadium shape */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.login-btn:hover {
+    color: white;
+    background-color: #555;
+}
+
+/* "Log In" Button */
+.signup-btn {
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding-right: 20px;
+    line-height: 36px;
+}
+.signup-btn:hover {
+    color: #333333;
+}
+
+/******************************************************************************************/
+/* Image Bar */
+/******************************************************************************************/
+/* Entire Section */
+.full-width-image {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Example height, adjust as needed */
+    overflow: hidden; /* Ensures the image doesn't go beyond the container */
+}
+
+/* Blurred Image Background*/
+.blurred-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/greenhouse-apartment.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px); /* Adjust the blur value as needed */
+}
+
+.centered-text {
+    position: absolute;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* or any color you prefer */
+    text-align: center;
+    z-index: 1; /* Ensures the text stays above the blurred background */
+}
+
+.address_container {
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
