@@ -6,3 +6,5 @@
 -	Implemented the schema in MySQL and created REST API using Java and Spring Boot framework for data access.
 -	Ran the application utilizing Docker containers for the database and tested APIs with Postman.
 -	Developed simple working front-end interfaces using HTML and CSS for a few web pages.
+
+![alt text](https://github.com/jiaying021218/ratemyapartment/apartmentHomePage.png)
